@@ -1,0 +1,9 @@
+.hero {
+  min-height:  990px;
+  padding: 200px 0 180px 0;
+  background-color: var(--color-gray);
+  background: url('../img/main-bg.jpg') center center / cover no-repeat;
+  &__content {
+    max-width: 590px;
+  };
+};
