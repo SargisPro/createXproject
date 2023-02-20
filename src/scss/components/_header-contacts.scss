@@ -5,7 +5,7 @@
 
 
     &:not(:last-child) {
-      margin-right: 34px;
+      margin-right: 35px;
     }
   };
 };
@@ -34,6 +34,5 @@
 
   &--mail {
     background-image: url('../img/svg/Chatmail.svg');
-
-  }
+  };
 };

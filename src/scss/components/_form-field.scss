@@ -9,12 +9,17 @@
   };
 
   &__input {
+    border: 1px solid #d7dadd;
     width: 260px;
     height: 44px;
-    margin-top: 10px;
-    border: 1px solid #D7DADD;
-    background: #F4F5F7;
+    padding-left: 16px;
     border-radius: 4px;
+    font-size: 14px;
+    line-height: 150%;
+    &::placeholder {
+    color: #9a9ca5;
+
+    }
   };
   &--big {
     flex-grow: 1;
