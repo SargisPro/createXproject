@@ -1,2 +1,2 @@
 import './vendor/focus-visible.js';
-import './vendor/slider.js';
+import './components/slider.js';

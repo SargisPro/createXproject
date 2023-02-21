@@ -3,6 +3,10 @@
 @import "mixins";
 @import "fonts";
 @import "settings";
+@import "./components/slider-nav";
+@import "./components/form-field";
+@import "./components/social";
+
 
 // подключения компонентов страницы (большие компоненты)
 @import "./components/header";
@@ -11,6 +15,12 @@
 @import "./components/missions";
 @import "./components/services-section";
 @import "./components/portfolio-section";
+@import "./components/partners";
+@import "./components/testimonials";
+@import "./components/facts";
+@import "./components/resent-news";
+@import "./components/contacts-section";
+@import "./components/footer";
 
 
 // подключения компонентов страницы (маленькие компоненты)
@@ -18,6 +28,4 @@
 @import "./components/nav";
 @import "./components/header-contacts";
 @import "./components/video-block";
-@import "./components/form-field";
-@import "./components/slider-nav";
 @import "./components/learn-more";
